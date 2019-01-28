@@ -10,7 +10,13 @@
 
 [Design Patterns for Managing Up](https://queue.acm.org/detail.cfm?id=3308563)
 
+## Software Tools
+
+[Loom - A Video Recorder](https://chrome.google.com/webstore/detail/loom-video-recorder-scree/liecbddmkiiihnedobmlmillhodjkdmb/related)
+
 
 ## Home - Lifestyle 
 
 [8 inch chef knife](https://www.amazon.com/Victorinox-Fibrox-Chefs-Knife-8-Inch/dp/B008M5U1C2/ref=cm_cr_srp_d_product_top?ie=UTF8)
+
+
