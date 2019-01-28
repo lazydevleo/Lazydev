@@ -1,3 +1,3 @@
-# productivity_notes
+# My Collections
 
 [Links](/Links.md)
