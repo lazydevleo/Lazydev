@@ -1,6 +1,7 @@
 
 ## Software
 [Professional Software Engineering](https://mixmastamyk.bitbucket.io/pro_soft_dev/intro.html)
+[ES6 Core e-book](http://exploringjs.com/es6/index.html#toc_ch_core-features)
 
 
 ## Home - Lifestyle 
