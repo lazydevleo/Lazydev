@@ -13,6 +13,8 @@
 
 [Getting Ahead by being InEfficient](https://fs.blog/2019/01/getting-ahead-inefficient/)
 
+[Finding Time to Read](https://fs.blog/2013/09/finding-time-to-read/)
+
 ## Software Tools
 
 [Loom - A Video Recorder](https://chrome.google.com/webstore/detail/loom-video-recorder-scree/liecbddmkiiihnedobmlmillhodjkdmb/related)
