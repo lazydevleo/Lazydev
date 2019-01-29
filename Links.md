@@ -11,6 +11,8 @@
 
 [Design Patterns for Managing Up](https://queue.acm.org/detail.cfm?id=3308563)
 
+[Getting Ahead by being InEfficient](https://fs.blog/2019/01/getting-ahead-inefficient/)
+
 ## Software Tools
 
 [Loom - A Video Recorder](https://chrome.google.com/webstore/detail/loom-video-recorder-scree/liecbddmkiiihnedobmlmillhodjkdmb/related)
