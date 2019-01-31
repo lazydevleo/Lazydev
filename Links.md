@@ -7,6 +7,8 @@
 
 [HTTP3-Cloudfare](https://blog.cloudflare.com/http-3-from-root-to-tip/)
 
+[whatwg- Front end Blog](https://blog.whatwg.org/)
+
 ## Management/Leadership/Business/Soft Skill
 
 [Design Patterns for Managing Up](https://queue.acm.org/detail.cfm?id=3308563)
