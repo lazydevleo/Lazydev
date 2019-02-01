@@ -9,6 +9,8 @@
 
 [whatwg- Front end Blog](https://blog.whatwg.org/)
 
+[K8 tools in MacOS](https://medium.com/@mo_keefe/a-kubernetes-development-workflow-for-macos-8c41669a4518)
+
 ## Management/Leadership/Business/Soft Skill
 
 [Design Patterns for Managing Up](https://queue.acm.org/detail.cfm?id=3308563)
