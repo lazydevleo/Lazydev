@@ -11,6 +11,9 @@
 
 [K8 tools in MacOS](https://medium.com/@mo_keefe/a-kubernetes-development-workflow-for-macos-8c41669a4518)
 
+### Functional Programming
+[Elm,Elixir, Phoenix](https://teamgaslight.com/blog/elm-elixir-and-phoenix-reflecting-on-a-functional-full-stack-project)
+
 ## Management/Leadership/Business/Soft Skill
 
 [Design Patterns for Managing Up](https://queue.acm.org/detail.cfm?id=3308563)
