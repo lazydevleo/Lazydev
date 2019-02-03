@@ -11,6 +11,8 @@
 
 [K8 tools in MacOS](https://medium.com/@mo_keefe/a-kubernetes-development-workflow-for-macos-8c41669a4518)
 
+[Wizard Zines](https://wizardzines.com/)
+
 ### Functional Programming
 [Elm,Elixir, Phoenix](https://teamgaslight.com/blog/elm-elixir-and-phoenix-reflecting-on-a-functional-full-stack-project)
 
