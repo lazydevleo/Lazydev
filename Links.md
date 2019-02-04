@@ -4,6 +4,8 @@
 
 [ES6 Core e-book](http://exploringjs.com/es6/index.html#toc_ch_core-features)
 
+[Rust Lang Book](https://doc.rust-lang.org/book/)
+
 
 [HTTP3-Cloudfare](https://blog.cloudflare.com/http-3-from-root-to-tip/)
 
