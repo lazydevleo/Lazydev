@@ -19,6 +19,10 @@
 
 [HTT2-Explained E Book](https://github.com/lazydevleo/books/blob/master/http2-explained-en.pdf)
 
+### Algorithm & DS
+
+[Algorithms and DS Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
 ### Functional Programming
 [Elm,Elixir, Phoenix](https://teamgaslight.com/blog/elm-elixir-and-phoenix-reflecting-on-a-functional-full-stack-project)
 
