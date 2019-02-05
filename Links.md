@@ -17,6 +17,8 @@
 
 [TensorFlow.js PDF](https://arxiv.org/pdf/1901.05350.pdf)
 
+[HTT2-Explained E Book](https://github.com/lazydevleo/books/blob/master/http2-explained-en.pdf)
+
 ### Functional Programming
 [Elm,Elixir, Phoenix](https://teamgaslight.com/blog/elm-elixir-and-phoenix-reflecting-on-a-functional-full-stack-project)
 
