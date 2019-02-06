@@ -19,6 +19,10 @@
 
 [HTT2-Explained E Book](https://github.com/lazydevleo/books/blob/master/http2-explained-en.pdf)
 
+### Blogs to read
+
+[Signal vs Noise](https://m.signalvnoise.com/)
+
 ### Algorithm & DS
 
 [Algorithms and DS Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
