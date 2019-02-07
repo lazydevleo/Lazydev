@@ -187,12 +187,14 @@ Enable extended mode—ignore whitespace and comments (# to end of line).
 - Maps
 
 
-	- Represented as %{key=>value,key=>value}
+	 Represented as %{key=>value,key=>value}
 	
-	-  ```
+	  	```
 	 		states = %{"AL"=>"Alabama", "VA"=>"Virginia"}
 				access it as states["AL"] , returns "Alabama"
 	  
 	 		%{{:error,:enoent} => :fatal}
 		```
+		
+		
 	 
