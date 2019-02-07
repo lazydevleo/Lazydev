@@ -54,16 +54,7 @@
 [Exerpeutic Folding Magnetic Upright Bike with Pulse](https://www.amazon.com/gp/product/B007595TKU/ref=ppx_yo_dt_b_asin_title_o01__o00_s00?ie=UTF8&psc=1)
 
 
-<div class="card">
-  <div class="card-header">
-    Quote
-  </div>
-  <div class="card-body">
-    <blockquote class="blockquote mb-0">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-    </blockquote>
-  </div>
-</div>
+## Jobs 
 
+[TripleByte](https://triplebyte.com/candidates)
 
