@@ -57,6 +57,8 @@
 
 [HuckBerry - Cool Gears](https://huckberry.com/)
 
+[Milk & Honey - spa & beauty](https://milkandhoney.com/)
+
 
 ## Jobs 
 
