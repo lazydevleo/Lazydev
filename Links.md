@@ -19,6 +19,8 @@
 
 [HTT2-Explained E Book](https://github.com/lazydevleo/books/blob/master/http2-explained-en.pdf)
 
+[SQL-Tutorial- Data Analytics](https://mode.com/sql-tutorial/)
+
 ### Blogs to read
 
 [Signal vs Noise](https://m.signalvnoise.com/)
