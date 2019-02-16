@@ -21,6 +21,8 @@
 
 [SQL-Tutorial- Data Analytics](https://mode.com/sql-tutorial/)
 
+[Kubernetes by Example](http://kubernetesbyexample.com/)
+
 ### Blogs to read
 
 [Signal vs Noise](https://m.signalvnoise.com/)
