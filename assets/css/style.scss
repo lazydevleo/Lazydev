@@ -4,10 +4,10 @@
 @import "{{ site.theme }}";
 
 * {box-sizing: border-box;}
-.wrapper {
+/*.wrapper {
   max-width: 940px;
   margin: 0 auto;
-}
+}*/
 
 .wrapper > div {
   border: 2px solid rgb(233,171,88);
