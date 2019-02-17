@@ -6,4 +6,4 @@ Topics
 
 [Learning Elixir](/LearningElixirNotes.md)
 
-[mypage](/Mypage.html)
+[mypage](/Mypage.md)
