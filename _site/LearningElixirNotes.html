@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Starting with Elixir | productivity_notes</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="Starting with Elixir" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/LearningElixirNotes.html" />
+<meta property="og:url" content="http://localhost:4000/LearningElixirNotes.html" />
+<meta property="og:site_name" content="productivity_notes" />
+<script type="application/ld+json">
+{"headline":"Starting with Elixir","@type":"WebPage","url":"http://localhost:4000/LearningElixirNotes.html","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=22c86750b58868371079524a0b2a46e32fc1a42c">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">productivity_notes</a></h1>
+        
+        
+
+        <p></p>
+
+        
+       <!-- <p class="view"><a href="https://github.com/lazydevleo/productivity_notes">View the Project on GitHub now <small>lazydevleo/productivity_notes</small></a></p>-->
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <h2 id="starting-with-elixir">Starting with Elixir</h2>
+
+<p>Using HomeBrew , installed the latest version of Elixir.</p>
+
+<h3 id="learning-the-language">Learning the Language</h3>
+
+<p><em>= is a match operator in Elixir</em></p>
+
+<p>a = 1 is a success if LHS can be matched to RHS</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	iex&gt;​ a = 1  // left hand side , variable value is changed. 
+​ 	1
+​ 	​iex&gt;​ 1 = a  // here RHS is replaced with value, meaning a is replaced with 1.
+​ 	1
+​ 	​iex&gt;​ 2 = a  // here a is replaced with 1 and now this becomes equal to 2 = 1 , and no match found error happens. 
+</code></pre></div></div>
+
+<p><strong>Complex Matches</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>iex&gt;​ list = [1, 2, 3]
+​ 	[1, 2, 3]
+​ 	​iex&gt;​ [a, b, c ] = list
+​ 	[1, 2, 3]
+​ 	​iex&gt;​ a
+​ 	1
+​ 	​iex&gt;​ b
+​ 	2
+​ 	​iex&gt;​ c
+​ 	3
+
+	​iex&gt;​ list = [1, 2, [ 3, 4, 5 ] ]
+	​ 	[1, 2, [3, 4, 5]]
+	​ iex&gt;​ [a, b, c ] = list
+	​ 	[1, 2, [3, 4, 5]]
+	​iex&gt;​ c
+	​ 	[3, 4, 5]
+	
+	[1, _, _] = [1, ​"​​cat"​, ​"​​dog"​]. // wildcard entry , 'underscore' will accept any value here and discards immediately.
+	
+
+</code></pre></div></div>
+
+<p><strong>Variable Bound Once</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[a, a] = [1, 1] // a=1 this will match.
+[b, b] = [1, 2] // this will not match. as variable will only match once.
+
+it can bound to new value on subsequent match.
+
+</code></pre></div></div>
+
+<p><strong>Pin Operator</strong></p>
+
+<p>if you want the variable to retain the previously binded value, we can use ^ symbol.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>^a = 1
+</code></pre></div></div>
+
+<h3 id="immutability">Immutability</h3>
+
+<ul>
+  <li>No Side effects</li>
+  <li>Making concurrency less frighting.</li>
+  <li>Faster Garbage collection.  As app is split as proceses. Heap is per Process. If Process exits before the heap is full , no garbage collection is required as the data is cleaned up.</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+​iex&gt;​ list1 = [ 3, 2, 1 ]
+​ 	[3, 2, 1]
+​ iex&gt;​ list2 = [ 4 | list1 ] // list 1 is re-used as we know list1 will not change in Elixir.
+​ 	[4, 3, 2, 1]
+</code></pre></div></div>
+
+<p>Now we know what is immutability, data does not change, so we can always expect name will always hold the same value. If we ever change it, it will be returning new value but the orginal value will remain the same.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>iex(19)&gt; name = "elixir"
+"elixir"
+iex(20)&gt; cap_name = String.capitalize name
+"Elixir"
+iex(21)&gt; name
+"elixir"
+iex(22)&gt; cap_name
+"Elixir"
+iex(23)&gt;
+</code></pre></div></div>
+
+<p>In Elixir, we always transform the data in place. we never modify it.</p>
+
+<h3 id="built-in-types">Built-In Types</h3>
+
+<p><strong>Value Types</strong></p>
+
+<ul>
+  <li>numbers  - there is no fixed limit. Decimal numbers may contain underscore.</li>
+  <li>names ,Atoms - constant, its name is its value. specified by a leading colon (:)
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ​:fred​  ​:is_binary?​  ​:var@2​  ​:&lt;&gt;​  ​:===​  ​:"func/3"​
+  ​ 	​:"long john silver"​  ​:эликсир​   ​:mötley_crüe​
+</code></pre></div>    </div>
+  </li>
+  <li>ranges  - represented as start..end, where start and end are integers.</li>
+  <li>regular expressions. - ~r{regexp} or ~r{regexp}opts</li>
+</ul>
+
+<p>opts are mentioned below.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>f	Force the pattern to start to match on the first line of a multiline string.
+i	Make matches case insensitive.
+m	
+If the string to be matched contains multiple lines, ^ and $ match the start and end of these lines. \A and \z continue to match the beginning or end of the string.
+
+s	
+Allow . to match any newline characters.
+
+U	
+Normally modifiers like * and + are greedy, matching as much as possible. The U modifier makes them ungreedy, matching as little as possible.
+
+u	Enable unicode-specific patterns like \p.
+x	
+Enable extended mode—ignore whitespace and comments (# to end of line).
+</code></pre></div></div>
+
+<p><strong>System Types</strong></p>
+
+<ul>
+  <li>PID - Refers to local/remote process. new PID is created when you spawn a process.</li>
+  <li>PORT - Refers to external app/resource you will read or write.</li>
+</ul>
+
+<h3 id="collections">Collections</h3>
+
+<ul>
+  <li>Tuples
+    <ul>
+      <li><em>ordered collection of values</em>
+  ```</li>
+    </ul>
+    <p>```</p>
+  </li>
+  <li>
+    <p>Lists</p>
+
+    <ul>
+      <li>
+        <p><em>they are not arrays, they are linked data structures. they are not stored contiguously in memory. They are like linkedlist.</em></p>
+      </li>
+      <li>
+        <p><em>easy traversal, but you can get the nth random element.</em></p>
+      </li>
+      <li>
+        <p><em>as it is immutable. to remove head, return the tail reference/pointer, its performant</em></p>
+      </li>
+      <li>
+        <p><code class="highlighter-rouge">
+      [1,2,3] [1,[1,2,3]]
+     </code></p>
+      </li>
+    </ul>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  **Operations on List**
+	
+	
+  ```
+  ​iex&gt;​  [ 1, 2, 3 ] ++ [ 4, 5, 6 ]      ​# concatenation​
+  ​ 	[1, 2, 3, 4, 5, 6]
+	
+	
+  ​ iex&gt;​ [1, 2, 3, 4] -- [2, 4]           ​# difference​
+  ​ 	[1, 3]
+	
+	
+  ​ iex&gt;​ 1 ​in​ [1,2,3,4]                   ​# membership​
+  ​ 	true
+	
+	
+  ​ iex&gt;​ ​"​​wombat"​ ​in​ [1, 2, 3, 4]
+  ​ 	false
+  ```
+
+  we can ignore the [] when it is a ``` [name: "Dave",city: "Dallas"]``` , Elixir will convert this to list of tuples ```[{:name,"Dave"},{:city,"Dallas"}]```.
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Maps</p>
+
+    <p>Represented as</p>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   %{key=&gt;value,key=&gt;value}
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+
+      
+
+      </section>
+      <footer>
+        
+        <!-- <p>This project is maintained by <a href="https://github.com/lazydevleo">lazydevleo</a></p> -->
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>
