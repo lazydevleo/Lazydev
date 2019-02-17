@@ -5,3 +5,5 @@ Topics
 [JavascriptNotes](/JavascriptNotes.md)
 
 [Learning Elixir](/LearningElixirNotes.md)
+
+[mypage](/Mypage.html)
