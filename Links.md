@@ -35,6 +35,10 @@
 
 [Kubernetes by Example](http://kubernetesbyexample.com/)
 
+### Front End 
+
+[CSS Tricks Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 ### Blogs to read
 
 [Signal vs Noise](https://m.signalvnoise.com/)
