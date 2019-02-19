@@ -1,16 +1,40 @@
-<b>Hello</b>
+
 
 <div class="mywrapper">
-  <div class="one">
-    <p><a href="https://mixmastamyk.bitbucket.io/pro_soft_dev/intro.html">Professional Software Engineering</a></p>
-    <p><a href="http://exploringjs.com/es6/index.html#toc_ch_core-features">ES6 Core e-book</a></p>
-  </div>
-  <div class="two">
-  <p><a href="https://doc.rust-lang.org/book/">Rust Lang Book</a></p>
-<p><a href="https://blog.cloudflare.com/http-3-from-root-to-tip/">HTTP3-Cloudfare</a></p>
-  </div>
-  <div class="three">Three</div>
-  <div class="four">Four</div>
-  <div class="five">Five</div>
-  <div class="six">Six</div>
+    <a href="/Links.html">
+        <div class="one">
+            <h3>Read Later Articles</h3>
+            <p>Bookmarks you can read in a short span of time </p>
+        </div>
+    </a>
+    <a href="/Links.html">
+        <div class="two">
+            <h3>Front End</h3>
+            <p>Includes HTML,CSS,JS related </p>
+        </div>
+    </a>
+    <a href="/Links.html">
+        <div class="three">
+            <h3>Algo & DS</h3>
+            <p>You get it, but not bookish </p>
+        </div>
+    </a>
+    <a href="/Links.html">
+        <div class="four">
+            <h3>Functional Programming</h3>
+            <p>Tryin to understand, so dedicated tab</p>
+        </div>
+    </a>
+    <a href="/Links.html">
+        <div class="five">
+            <h3>Tools & Productivity</h3>
+            <p>software projects, utility  or frameworks to devour</p>
+        </div>
+    </a>
+    <a href="/Links.html">
+        <div class="six">
+            <h3>Home & Lifestyle</h3>
+            <p>Just about anything for home. Live up a bit</p>
+        </div>
+    </a>
 </div>

@@ -30,6 +30,8 @@
 
 [CSS Tricks Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
+[Github Help for Local setup](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
+
 ### Blogs to read
 
 [Signal vs Noise](https://m.signalvnoise.com/)
