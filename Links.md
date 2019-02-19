@@ -32,6 +32,8 @@
 
 [Github Help for Local setup](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
+[Handling timezones in Javascript](https://medium.com/@toastui/handling-time-zone-in-javascript-547e67aa842d)
+
 ### Blogs to read
 
 [Signal vs Noise](https://m.signalvnoise.com/)
