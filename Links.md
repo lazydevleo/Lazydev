@@ -36,6 +36,10 @@
 
 [Signal vs Noise](https://m.signalvnoise.com/)
 
+### Machine Learning
+
+[Essence of Linear Algebra](https://www.youtube.com/watch?v=kjBOesZCoqc&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+
 ### Algorithm & DS
 
 [Algorithms and DS Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
