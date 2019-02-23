@@ -38,6 +38,8 @@
 
 [Signal vs Noise](https://m.signalvnoise.com/)
 
+[Explain that Stuff - Internet ](https://www.explainthatstuff.com/internet.html)
+
 ### Machine Learning
 
 [Essence of Linear Algebra](https://www.youtube.com/watch?v=kjBOesZCoqc&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
