@@ -26,6 +26,8 @@
 
 [Kubernetes by Example](http://kubernetesbyexample.com/)
 
+[Best of Machine Learning](http://bestofml.com/)
+
 ### Front End 
 
 [CSS Tricks Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
