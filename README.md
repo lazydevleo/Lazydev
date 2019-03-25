@@ -9,7 +9,7 @@
 [mypage](/Mypage.md) -->
 
 <div class="mywrapper">
-    <a href="/Links.html">
+    <a href="/Links.md">
         <div class="one">
             <h3>Read Later Articles</h3>
             <p>Bookmarks you can read in a short span of time </p>
