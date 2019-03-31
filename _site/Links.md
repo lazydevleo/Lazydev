@@ -26,15 +26,31 @@
 
 [Kubernetes by Example](http://kubernetesbyexample.com/)
 
+[Best of Machine Learning](http://bestofml.com/)
+
+### Courses
+
+[Computer System Security - MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/)
+
 ### Front End 
 
 [CSS Tricks Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 [Github Help for Local setup](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
+[Handling timezones in Javascript](https://medium.com/@toastui/handling-time-zone-in-javascript-547e67aa842d)
+
+[TC39 - Website - current spec](https://tc39.github.io/ecma262/)
+
 ### Blogs to read
 
 [Signal vs Noise](https://m.signalvnoise.com/)
+
+[Explain that Stuff - Internet ](https://www.explainthatstuff.com/internet.html)
+
+### Machine Learning
+
+[Essence of Linear Algebra](https://www.youtube.com/watch?v=kjBOesZCoqc&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
 ### Algorithm & DS
 
