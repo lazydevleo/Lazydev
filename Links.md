@@ -9,6 +9,8 @@
 
 [Rust Lang Book](https://doc.rust-lang.org/book/)
 
+[7 databases in 7 days](https://db.cs.cmu.edu/seminar2014/)
+
 
 [HTTP3-Cloudfare](https://blog.cloudflare.com/http-3-from-root-to-tip/)
 
